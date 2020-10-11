@@ -1,0 +1,357 @@
+@-webkit-keyframes slideshow {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  100% {
+    -webkit-transform: translateX(-1427px);
+            transform: translateX(-1427px);
+  }
+}
+
+@keyframes slideshow {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  100% {
+    -webkit-transform: translateX(-1427px);
+            transform: translateX(-1427px);
+  }
+}
+
+@-webkit-keyframes slideshow2 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  100% {
+    -webkit-transform: translateX(1041px);
+            transform: translateX(1041px);
+  }
+}
+
+@keyframes slideshow2 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  100% {
+    -webkit-transform: translateX(1041px);
+            transform: translateX(1041px);
+  }
+}
+
+@-webkit-keyframes title {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+  100% {
+    -webkit-transform: translate(1000px, -1000px);
+            transform: translate(1000px, -1000px);
+  }
+}
+
+@keyframes title {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+  100% {
+    -webkit-transform: translate(1000px, -1000px);
+            transform: translate(1000px, -1000px);
+  }
+}
+
+@-webkit-keyframes name {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+  100% {
+    -webkit-transform: translate(-1100px, -1100px);
+            transform: translate(-1100px, -1100px);
+  }
+}
+
+@keyframes name {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+  100% {
+    -webkit-transform: translate(-1100px, -1100px);
+            transform: translate(-1100px, -1100px);
+  }
+}
+
+@font-face {
+  font-family: Morganite;
+  src: url("../fonts/Morganite/Morganite-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: Morganite2;
+  src: url("../fonts/Morganite/Morganite-Medium.ttf");
+}
+
+@font-face {
+  font-family: Morganite3;
+  src: url("../fonts/Morganite/Morganite-Light.ttf");
+}
+
+@font-face {
+  font-family: Morganite4;
+  src: url("../fonts/Morganite/Morganite-Black.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.menu {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background-color: #A49C9B;
+}
+
+.menu .name {
+  -webkit-animation: 2s linear;
+          animation: 2s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+  margin-left: 10vh;
+  margin-top: 4vh;
+}
+
+.menu .name .surname {
+  font-family: Morganite;
+  font-size: 50vh;
+}
+
+.menu .name .surname .firstLetter {
+  color: whitesmoke;
+}
+
+.menu .name .nom {
+  font-family: Morganite;
+  font-size: 400px;
+  color: whitesmoke;
+}
+
+.menu .name .lastname {
+  margin-top: -23vh;
+  padding-bottom: 35vh;
+  font-family: Morganite;
+  font-size: 50vh;
+}
+
+.menu .name .lastname .firstLetter {
+  color: whitesmoke;
+}
+
+.menu .title {
+  -webkit-animation: 2s linear;
+          animation: 2s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+  position: absolute;
+  top: 35%;
+  left: 60%;
+}
+
+.menu .title .webDev {
+  font-family: Morganite2;
+  font-size: 150px;
+}
+
+.menu .title .design {
+  margin-top: -5vh;
+  color: whitesmoke;
+  font-family: Morganite2;
+  font-size: 150px;
+}
+
+.menu .title .city {
+  margin-top: -5vh;
+  font-family: Morganite2;
+  font-size: 150px;
+}
+
+.bandeau {
+  position: absolute;
+  top: 100vh;
+  height: 100vh;
+  background-color: black;
+}
+
+.bandeau .photo {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-animation: slideshow 8s infinite linear;
+          animation: slideshow 8s infinite linear;
+}
+
+.bandeau .photo .photo01 {
+  padding-left: 2vw;
+  padding-top: 2vh;
+  font-size: 15rem;
+  font-family: Morganite;
+  color: black;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: silver;
+}
+
+.bandeau .photo .photo02 {
+  padding-left: 5vw;
+  padding-top: 2vh;
+  font-size: 15rem;
+  font-family: Morganite;
+  color: silver;
+}
+
+.bandeau .photo .photo03 {
+  padding-left: 5vw;
+  padding-top: 2vh;
+  font-size: 15rem;
+  font-family: Morganite;
+  color: black;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: silver;
+}
+
+.bandeau .photo .photo04 {
+  padding-left: 5vw;
+  padding-top: 2vh;
+  font-size: 15rem;
+  font-family: Morganite;
+  color: silver;
+}
+
+.bandeau .photo .photo05 {
+  padding-left: 5vw;
+  padding-top: 2vh;
+  font-size: 15rem;
+  font-family: Morganite;
+  color: black;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: silver;
+}
+
+.bandeau .first .bridge {
+  width: 25vw;
+  height: auto;
+  padding-right: 0.5%;
+}
+
+.bandeau .first .greece {
+  width: 25vw;
+  padding-right: 0.5%;
+}
+
+.bandeau .first .shop {
+  width: 25vw;
+  padding-right: 0.5%;
+}
+
+.bandeau .first .lion {
+  width: 25vw;
+  padding-right: 0.5vw;
+}
+
+.bandeau .second .church {
+  width: 25vw;
+  padding-right: 0.5%;
+}
+
+.bandeau .second .panda {
+  width: 25vw;
+  padding-right: 0.5%;
+}
+
+.bandeau .second .road {
+  width: 25vw;
+  padding-right: 0.5%;
+}
+
+.bandeau .second .london {
+  width: 25vw;
+}
+
+.bandeau2 {
+  position: absolute;
+  top: 200vh;
+  height: 100vh;
+  width: 100vw;
+  background-color: silver;
+}
+
+.bandeau2 .langage {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-animation: slideshow2 8s infinite linear;
+          animation: slideshow2 8s infinite linear;
+}
+
+.bandeau2 .langage .photo01 {
+  padding-left: 2vw;
+  padding-top: 2vh;
+  font-size: 15rem;
+  font-family: Morganite;
+  color: silver;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.bandeau2 .langage .photo02 {
+  padding-left: 5vw;
+  padding-top: 2vh;
+  font-size: 15rem;
+  font-family: Morganite;
+  color: black;
+}
+
+.bandeau2 .langage .photo03 {
+  padding-left: 5vw;
+  padding-top: 2vh;
+  font-size: 15rem;
+  font-family: Morganite;
+  color: silver;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.bandeau2 .langage .photo04 {
+  padding-left: 5vw;
+  padding-top: 2vh;
+  font-size: 15rem;
+  font-family: Morganite;
+  color: black;
+}
+
+.bandeau2 .langage .photo05 {
+  padding-left: 5vw;
+  padding-top: 2vh;
+  font-size: 15rem;
+  font-family: Morganite;
+  color: silver;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+/*# sourceMappingURL=style.css.map */

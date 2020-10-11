@@ -1,0 +1,307 @@
+@import 'animations';
+
+
+@font-face {
+    font-family: Morganite;
+    src: url("../fonts/Morganite/Morganite-ExtraBold.ttf")
+}
+
+@font-face {
+    font-family: Morganite2;
+    src: url("../fonts/Morganite/Morganite-Medium.ttf")
+}
+
+@font-face {
+    font-family: Morganite3;
+    src: url("../fonts/Morganite/Morganite-Light.ttf")
+}
+
+@font-face {
+    font-family: Morganite4;
+    src: url("../fonts/Morganite/Morganite-Black.ttf")
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+
+
+}
+
+body {
+
+    overflow-x: hidden;
+}
+
+
+    .menu {
+        position: fixed;
+        height: 100vh;
+        width: 100vw;
+        display: inline-flex;
+        background-color: #A49C9B;
+        
+        .name {
+            animation:  2s linear;
+            animation-fill-mode: forwards;
+            animation-delay: 5s;
+            margin-left: 10vh;
+            margin-top: 4vh;
+
+            .surname {
+                font-family: Morganite;
+                font-size: 50vh;
+
+                .firstLetter {
+                    color: whitesmoke;
+                }
+
+
+            }
+
+            .nom {
+                font-family: Morganite;
+                font-size: 400px;
+                color: whitesmoke;
+            }
+
+            .lastname {
+                margin-top: -23vh;
+                padding-bottom: 35vh;
+                font-family: Morganite;
+                font-size: 50vh;
+
+                .firstLetter {
+                    color: whitesmoke;
+                }
+            }
+
+        }
+
+        .title {
+            animation:  2s linear;
+            animation-fill-mode: forwards;
+            animation-delay: 5s;
+            position: absolute;
+            top: 35%;
+            left: 60%;
+
+            .webDev {
+                font-family: Morganite2;
+                font-size: 150px;
+            }
+
+            .design {
+                margin-top: -5vh;
+                color: whitesmoke;
+                font-family: Morganite2;
+                font-size: 150px;
+
+            }
+
+
+            .city {
+                margin-top: -5vh;
+                font-family: Morganite2;
+                font-size: 150px;
+
+            }
+
+        }
+
+
+    }
+
+
+
+
+    .bandeau {
+        position: absolute;
+        top: 100vh;
+        height: 100vh;
+        background-color: black;
+
+
+        .photo {
+
+            display: inline-flex;
+            animation: slideshow 8s infinite linear;
+
+            .photo01 {
+                padding-left: 2vw;
+                padding-top: 2vh;
+                font-size: 15rem;
+                font-family: Morganite;
+                color: black;
+                -webkit-text-stroke-width: 2px;
+                -webkit-text-stroke-color: silver;
+            }
+
+            .photo02 {
+                padding-left: 5vw;
+                padding-top: 2vh;
+                font-size: 15rem;
+                font-family: Morganite;
+                color: silver;
+            }
+
+            .photo03 {
+                padding-left: 5vw;
+                padding-top: 2vh;
+                font-size: 15rem;
+                font-family: Morganite;
+                color: black;
+                -webkit-text-stroke-width: 2px;
+                -webkit-text-stroke-color: silver;
+            }
+
+            .photo04 {
+                padding-left: 5vw;
+                padding-top: 2vh;
+                font-size: 15rem;
+                font-family: Morganite;
+                color: silver;
+            }
+
+            .photo05 {
+                padding-left: 5vw;
+                padding-top: 2vh;
+                font-size: 15rem;
+                font-family: Morganite;
+                color: black;
+                -webkit-text-stroke-width: 2px;
+                -webkit-text-stroke-color: silver;
+            }
+        }
+
+        .first {
+
+            .bridge {
+                width: 25vw;
+                height: auto;
+                padding-right: 0.5%;
+            }
+
+            .greece {
+                width: 25vw;
+                padding-right: 0.5%;
+            }
+
+            .shop {
+                width: 25vw;
+                padding-right: 0.5%;
+
+            }
+
+            .lion {
+                width: 25vw;
+                padding-right: 0.5vw;
+            }
+
+        }
+
+        .second {
+            
+
+            .church {
+                width: 25vw;
+                padding-right: 0.5%;
+            }
+
+            .panda {
+                width: 25vw;
+                padding-right: 0.5%;
+            }
+
+            .road {
+                width: 25vw;
+                padding-right: 0.5%;
+
+            }
+
+            .london {
+                width: 25vw;
+            }
+
+        }
+
+
+
+
+    }
+
+
+
+
+    .bandeau2 {
+
+        position: absolute;
+        top: 200vh;
+        height: 100vh;
+        width: 100vw;
+        background-color: silver;
+
+        .langage{
+
+            display: inline-flex;
+            animation: slideshow2 8s infinite linear;
+
+
+            .photo01 {
+                padding-left: 2vw;
+                padding-top: 2vh;
+                font-size: 15rem;
+                font-family: Morganite;
+                color: silver;
+                -webkit-text-stroke-width: 2px;
+                -webkit-text-stroke-color: black;
+            }
+
+            .photo02 {
+                padding-left: 5vw;
+                padding-top: 2vh;
+                font-size: 15rem;
+                font-family: Morganite;
+                color: black;
+            }
+
+            .photo03 {
+                padding-left: 5vw;
+                padding-top: 2vh;
+                font-size: 15rem;
+                font-family: Morganite;
+                color: silver;
+                -webkit-text-stroke-width: 2px;
+                -webkit-text-stroke-color: black;
+            }
+
+            .photo04 {
+                padding-left: 5vw;
+                padding-top: 2vh;
+                font-size: 15rem;
+                font-family: Morganite;
+                color: black;
+            }
+
+            .photo05 {
+                padding-left: 5vw;
+                padding-top: 2vh;
+                font-size: 15rem;
+                font-family: Morganite;
+                color: silver;
+                -webkit-text-stroke-width: 2px;
+                -webkit-text-stroke-color: black;
+            }
+
+        }
+
+
+
+
+
+    }
+
+
+/*# sourceMappingURL=style.css.map */
